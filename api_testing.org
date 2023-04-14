@@ -1,0 +1,20 @@
+
+
+#+begin_src restclient
+GET http://localhost:8000/
+#+end_src
+
+#+RESULTS:
+#+BEGIN_SRC html
+hello
+<!-- GET http://localhost:8000/ -->
+<!-- HTTP/1.1 200 OK -->
+<!-- X-Powered-By: Express -->
+<!-- Content-Type: text/html; charset=utf-8 -->
+<!-- Content-Length: 5 -->
+<!-- ETag: W/"5-qvTGHdzF6KLavt4PO0gs2a6pQ00" -->
+<!-- Date: Fri, 14 Apr 2023 17:31:52 GMT -->
+<!-- Connection: keep-alive -->
+<!-- Keep-Alive: timeout=5 -->
+<!-- Request duration: 0.154292s -->
+#+END_SRC

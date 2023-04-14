@@ -1,4 +1,4 @@
-import { Knex } from 'knex';
+import {Knex} from 'knex';
 
 const config: Knex.Config = {
   client: 'mysql2',
@@ -7,8 +7,9 @@ const config: Knex.Config = {
     port: 3306,
     user: 'root',
     password: 'lalaland',
-    database: 'mysql',
+    database: 'products',
   },
 };
 
 export default config;
+
